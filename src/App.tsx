@@ -1,25 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Stack } from '@chakra-ui/react';
+import { Calendar } from '@irishlife/ilgroupdesignsystem.organisms.calendar';
+import { Accordion } from '@irishlife/ilgroupdesignsystem.molecules.accordion';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Stack p={10} spacing={6}>
+      <Calendar />
+      <Accordion
+        items={[
+          { id: 1, title: 'hello', text: 'world' },
+          { id: 2, title: 'hello2', text: 'world2' },
+          { id: 3, title: 'hello2', text: 'world2' },
+          { id: 4, title: 'hello2', text: 'world2' },
+        ]}
+      />
+    </Stack>
   );
 }
 
