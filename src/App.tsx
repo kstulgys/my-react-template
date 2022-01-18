@@ -1,11 +1,13 @@
-import { Stack, HStack } from '@chakra-ui/react';
+import { Stack, HStack, Box } from '@chakra-ui/react';
 import { Calendar } from '@irishlife/ilgroupdesignsystem.organisms.calendar';
 import { Accordion } from '@irishlife/ilgroupdesignsystem.molecules.accordion';
 import { Alert } from '@irishlife/ilgroupdesignsystem.molecules.alert';
 import { Choice } from '@irishlife/ilgroupdesignsystem.molecules.choice';
 import { Button } from '@irishlife/ilgroupdesignsystem.atoms.button';
 import { Text } from '@irishlife/ilgroupdesignsystem.atoms.text';
-import { ArrowRightCircleIcon } from '@irishlife/ilgroupdesignsystem.icons';
+import { ArrowRightCircleIcon, ArrowLeftCircleIcon, CheckIcon, PlusOutlineCircleIcon } from '@irishlife/ilgroupdesignsystem.icons';
+import { Sidebar } from '@irishlife/ilgroupdesignsystem.organisms.sidebar';
+import { Navbar } from '@irishlife/ilgroupdesignsystem.organisms.navbar';
 
 const accordionItems = [
   { id: 1, title: 'hello', text: 'world' },
@@ -27,9 +29,15 @@ const choicesItems = [
   { id: 4, label: 'hello4', value: 'hello4' },
 ];
 
+const sidebarItems = [
+  { id: 1, label: 'Overview', value: '0verview', icon: ArrowLeftCircleIcon },
+  { id: 2, label: 'Health', value: 'health', icon: CheckIcon },
+  { id: 3, label: 'Investments', value: 'investments', icon: PlusOutlineCircleIcon },
+];
+
 function App() {
   return (
-    <Stack spacing={10} p={10}>
+    <Stack spacing={10}>
       <Text variant="caption-lg">Hello Team</Text>
       <Alert status="success">Hello World</Alert>
       <Choice isBinary options={choicesItems} columns={[1, 3, 2]} />
