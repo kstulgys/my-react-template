@@ -1882,20 +1882,20 @@
     "@irishlife/ilgroupdesignsystem.icons" "0.0.12"
     core-js "^3.0.0"
 
-"@irishlife/ilgroupdesignsystem.organisms.navbar@^0.0.4":
-  version "0.0.4"
-  resolved "https://node.bit.dev/@irishlife/ilgroupdesignsystem.organisms.navbar/-/@irishlife-ilgroupdesignsystem.organisms.navbar-0.0.4.tgz#240ac626907219b42e1fe9f50c8e943fbdd0e47d"
-  integrity sha1-JArGJpByGbQuH+n1DI6UP73Q5H0=
+"@irishlife/ilgroupdesignsystem.organisms.navbar@^0.0.6":
+  version "0.0.6"
+  resolved "https://node.bit.dev/@irishlife/ilgroupdesignsystem.organisms.navbar/-/@irishlife-ilgroupdesignsystem.organisms.navbar-0.0.6.tgz#266a59433d21f87813e65af86fa56debc3458505"
+  integrity sha1-JmpZQz0h+HgT5lr4b6Vt68NFhQU=
   dependencies:
     "@chakra-ui/react" "1.7.4"
     "@irishlife/ilgroupdesignsystem.atoms.icon-button" "0.0.23"
     "@irishlife/ilgroupdesignsystem.icons" "0.0.12"
     core-js "^3.0.0"
 
-"@irishlife/ilgroupdesignsystem.organisms.sidebar@^0.0.7":
-  version "0.0.7"
-  resolved "https://node.bit.dev/@irishlife/ilgroupdesignsystem.organisms.sidebar/-/@irishlife-ilgroupdesignsystem.organisms.sidebar-0.0.7.tgz#4222e790e40c811ac6c9e0847b35e57d3cb8e656"
-  integrity sha1-QiLnkOQMgRrGyeCEezXlfTy45lY=
+"@irishlife/ilgroupdesignsystem.organisms.sidebar@^0.0.9":
+  version "0.0.9"
+  resolved "https://node.bit.dev/@irishlife/ilgroupdesignsystem.organisms.sidebar/-/@irishlife-ilgroupdesignsystem.organisms.sidebar-0.0.9.tgz#f51f8bc853407c6ade70720fd067a255929f55d6"
+  integrity sha1-9R+LyFNAfGrecHIP0GeiVZKfVdY=
   dependencies:
     "@chakra-ui/react" "1.7.4"
     "@irishlife/ilgroupdesignsystem.atoms.icon-button" "0.0.23"

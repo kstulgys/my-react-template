@@ -5,11 +5,9 @@ import reportWebVitals from './reportWebVitals';
 import { ThemeProvider } from '@irishlife/ilgroupdesignsystem.theme.theme-provider';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <ThemeProvider>
-      <App />
-    </ThemeProvider>
-  </React.StrictMode>,
+  <ThemeProvider>
+    <App />
+  </ThemeProvider>,
   document.getElementById('root')
 );
 
