@@ -3,6 +3,8 @@ import { Calendar } from '@irishlife/ilgroupdesignsystem.organisms.calendar';
 import { Accordion } from '@irishlife/ilgroupdesignsystem.molecules.accordion';
 import { Alert } from '@irishlife/ilgroupdesignsystem.molecules.alert';
 import { Choice } from '@irishlife/ilgroupdesignsystem.molecules.choice';
+import { Dropdown } from '@irishlife/ilgroupdesignsystem.molecules.dropdown';
+import { Datepicker } from '@irishlife/ilgroupdesignsystem.molecules.datepicker';
 import { Button } from '@irishlife/ilgroupdesignsystem.atoms.button';
 import { Text } from '@irishlife/ilgroupdesignsystem.atoms.text';
 import { ArrowRightCircleIcon, ArrowLeftCircleIcon, CheckIcon, PlusOutlineCircleIcon } from '@irishlife/ilgroupdesignsystem.icons';
@@ -51,11 +53,15 @@ function App() {
   );
 }
 
+// dropdown z-index
+
 function Content() {
   return (
     <Stack spacing={10}>
       <Text variant="caption-lg">Hello Team</Text>
       <Alert status="success">Hello World</Alert>
+      <Dropdown options={sidebarItems} onSelect={console.log} isMulti />
+      <Datepicker onChange={console.log} />
       <Choice isBinary options={choicesItems} columns={[1, 3, 2]} />
       <HStack>
         <Button>Normal button</Button>

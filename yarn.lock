@@ -1766,158 +1766,200 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz#b520529ec21d8e5945a1851dfd1c32e94e39ff45"
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
 
-"@irishlife/ilgroupdesignsystem.atoms.avatar@^0.0.25":
+"@irishlife/ilgroupdesignsystem.atoms.avatar@^0.0.26":
+  version "0.0.26"
+  resolved "https://node.bit.dev/@irishlife/ilgroupdesignsystem.atoms.avatar/-/@irishlife-ilgroupdesignsystem.atoms.avatar-0.0.26.tgz#712bcd1af45421c66b52192414e111d9317d21dc"
+  integrity sha1-cSvNGvRUIcZrUhkkFOER2TF9Idw=
+  dependencies:
+    "@chakra-ui/react" "1.7.4"
+    core-js "^3.0.0"
+
+"@irishlife/ilgroupdesignsystem.atoms.button@0.0.25", "@irishlife/ilgroupdesignsystem.atoms.button@^0.0.25":
   version "0.0.25"
-  resolved "https://node.bit.dev/@irishlife/ilgroupdesignsystem.atoms.avatar/-/@irishlife-ilgroupdesignsystem.atoms.avatar-0.0.25.tgz#ac6048e8ecc525523cd6782a3e5fc9ef69b8943e"
-  integrity sha1-rGBI6OzFJVI81ngqPl/J72m4lD4=
+  resolved "https://node.bit.dev/@irishlife/ilgroupdesignsystem.atoms.button/-/@irishlife-ilgroupdesignsystem.atoms.button-0.0.25.tgz#4614f4251c599f4c1fe0539d9ebd93a861438b51"
+  integrity sha1-RhT0JRxZn0wf4FOdnr2TqGFDi1E=
   dependencies:
     "@chakra-ui/react" "1.7.4"
     core-js "^3.0.0"
 
-"@irishlife/ilgroupdesignsystem.atoms.button@0.0.24", "@irishlife/ilgroupdesignsystem.atoms.button@^0.0.24":
-  version "0.0.24"
-  resolved "https://node.bit.dev/@irishlife/ilgroupdesignsystem.atoms.button/-/@irishlife-ilgroupdesignsystem.atoms.button-0.0.24.tgz#65c15b1c5d520846e9cb98171faff2548ad723eb"
-  integrity sha1-ZcFbHF1SCEbpy5gXH6/yVIrXI+s=
+"@irishlife/ilgroupdesignsystem.atoms.card@0.0.11":
+  version "0.0.11"
+  resolved "https://node.bit.dev/@irishlife/ilgroupdesignsystem.atoms.card/-/@irishlife-ilgroupdesignsystem.atoms.card-0.0.11.tgz#e75d058c9c3010234599b05d8ee0f1f72c84f7e2"
+  integrity sha1-510FjJwwECNFmbBdjuDx9yyE9+I=
   dependencies:
     "@chakra-ui/react" "1.7.4"
     core-js "^3.0.0"
 
-"@irishlife/ilgroupdesignsystem.atoms.card@0.0.10":
-  version "0.0.10"
-  resolved "https://node.bit.dev/@irishlife/ilgroupdesignsystem.atoms.card/-/@irishlife-ilgroupdesignsystem.atoms.card-0.0.10.tgz#c6d34955e75b44a1cd549f7df0dfe52952fca82c"
-  integrity sha1-xtNJVedbRKHNVJ998N/lKVL8qCw=
+"@irishlife/ilgroupdesignsystem.atoms.checkbox@0.0.25":
+  version "0.0.25"
+  resolved "https://node.bit.dev/@irishlife/ilgroupdesignsystem.atoms.checkbox/-/@irishlife-ilgroupdesignsystem.atoms.checkbox-0.0.25.tgz#b4d287c674a0191efed5b10dee34d4977a415d13"
+  integrity sha1-tNKHxnSgGR7+1bEN7jTUl3pBXRM=
   dependencies:
     "@chakra-ui/react" "1.7.4"
+    "@irishlife/ilgroupdesignsystem.atoms.form-label" "0.0.15"
     core-js "^3.0.0"
 
-"@irishlife/ilgroupdesignsystem.atoms.checkbox@0.0.24":
-  version "0.0.24"
-  resolved "https://node.bit.dev/@irishlife/ilgroupdesignsystem.atoms.checkbox/-/@irishlife-ilgroupdesignsystem.atoms.checkbox-0.0.24.tgz#4d73e0fe8850bbd2b686e4a94f8364967e7d604b"
-  integrity sha1-TXPg/ohQu9K2huSpT4Nkln59YEs=
-  dependencies:
-    "@chakra-ui/react" "1.7.4"
-    "@irishlife/ilgroupdesignsystem.atoms.form-label" "0.0.14"
-    core-js "^3.0.0"
-
-"@irishlife/ilgroupdesignsystem.atoms.form-label@0.0.14":
-  version "0.0.14"
-  resolved "https://node.bit.dev/@irishlife/ilgroupdesignsystem.atoms.form-label/-/@irishlife-ilgroupdesignsystem.atoms.form-label-0.0.14.tgz#ec59379da73df1b057326572c66c4297b022c60b"
-  integrity sha1-7Fk3nac98bBXMmVyxmxCl7Aixgs=
-  dependencies:
-    "@chakra-ui/react" "1.7.4"
-    core-js "^3.0.0"
-
-"@irishlife/ilgroupdesignsystem.atoms.icon-button@0.0.23":
-  version "0.0.23"
-  resolved "https://node.bit.dev/@irishlife/ilgroupdesignsystem.atoms.icon-button/-/@irishlife-ilgroupdesignsystem.atoms.icon-button-0.0.23.tgz#48a60e0167ff00489122119704f734bb1c951752"
-  integrity sha1-SKYOAWf/AEiRIhGXBPc0uxyVF1I=
-  dependencies:
-    "@chakra-ui/react" "1.7.4"
-    core-js "^3.0.0"
-
-"@irishlife/ilgroupdesignsystem.atoms.text@0.0.17", "@irishlife/ilgroupdesignsystem.atoms.text@^0.0.17":
-  version "0.0.17"
-  resolved "https://node.bit.dev/@irishlife/ilgroupdesignsystem.atoms.text/-/@irishlife-ilgroupdesignsystem.atoms.text-0.0.17.tgz#46b3f8db56f99675d2fa5e61e748aa7e52562437"
-  integrity sha1-RrP421b5lnXS+l5h50iqflJWJDc=
-  dependencies:
-    "@chakra-ui/react" "1.7.4"
-    core-js "^3.0.0"
-
-"@irishlife/ilgroupdesignsystem.icons@0.0.12", "@irishlife/ilgroupdesignsystem.icons@^0.0.12":
-  version "0.0.12"
-  resolved "https://node.bit.dev/@irishlife/ilgroupdesignsystem.icons/-/@irishlife-ilgroupdesignsystem.icons-0.0.12.tgz#e669e616dc43dea13f6b67ae198e036b879c45a9"
-  integrity sha1-5mnmFtxD3qE/a2euGY4Da4ecRak=
-  dependencies:
-    "@chakra-ui/react" "1.7.4"
-    core-js "^3.0.0"
-
-"@irishlife/ilgroupdesignsystem.molecules.accordion@^0.0.8":
-  version "0.0.8"
-  resolved "https://node.bit.dev/@irishlife/ilgroupdesignsystem.molecules.accordion/-/@irishlife-ilgroupdesignsystem.molecules.accordion-0.0.8.tgz#f9e8b73480fe423716e78eb4622c1134ad604ef4"
-  integrity sha1-+ei3NID+QjcW5460YiwRNK1gTvQ=
-  dependencies:
-    "@chakra-ui/react" "1.7.4"
-    "@irishlife/ilgroupdesignsystem.atoms.text" "0.0.17"
-    core-js "^3.0.0"
-
-"@irishlife/ilgroupdesignsystem.molecules.alert@^0.0.3":
-  version "0.0.3"
-  resolved "https://node.bit.dev/@irishlife/ilgroupdesignsystem.molecules.alert/-/@irishlife-ilgroupdesignsystem.molecules.alert-0.0.3.tgz#f6645ec19aec25472a3d673962956099f76e6e14"
-  integrity sha1-9mRewZrsJUcqPWc5YpVgmfdubhQ=
-  dependencies:
-    "@chakra-ui/react" "1.7.4"
-    core-js "^3.0.0"
-
-"@irishlife/ilgroupdesignsystem.molecules.choice@0.0.15", "@irishlife/ilgroupdesignsystem.molecules.choice@^0.0.15":
+"@irishlife/ilgroupdesignsystem.atoms.form-label@0.0.15":
   version "0.0.15"
-  resolved "https://node.bit.dev/@irishlife/ilgroupdesignsystem.molecules.choice/-/@irishlife-ilgroupdesignsystem.molecules.choice-0.0.15.tgz#f80b35262d294c19d0826d3421b1cfcee11134e2"
-  integrity sha1-+As1Ji0pTBnQgm00IbHPzuERNOI=
+  resolved "https://node.bit.dev/@irishlife/ilgroupdesignsystem.atoms.form-label/-/@irishlife-ilgroupdesignsystem.atoms.form-label-0.0.15.tgz#1eb1fe2d5130de5d6bc6e24a5353d7573699983e"
+  integrity sha1-HrH+LVEw3l1rxuJKU1PXVzaZmD4=
   dependencies:
     "@chakra-ui/react" "1.7.4"
-    "@irishlife/ilgroupdesignsystem.atoms.button" "0.0.24"
-    "@irishlife/ilgroupdesignsystem.atoms.form-label" "0.0.14"
     core-js "^3.0.0"
 
-"@irishlife/ilgroupdesignsystem.organisms.calendar@^0.0.29":
-  version "0.0.29"
-  resolved "https://node.bit.dev/@irishlife/ilgroupdesignsystem.organisms.calendar/-/@irishlife-ilgroupdesignsystem.organisms.calendar-0.0.29.tgz#ae06575d9c857b8a6b3419f165e94cd05d1e76c1"
-  integrity sha1-rgZXXZyFe4prNBnxZelM0F0edsE=
+"@irishlife/ilgroupdesignsystem.atoms.icon-button@0.0.24":
+  version "0.0.24"
+  resolved "https://node.bit.dev/@irishlife/ilgroupdesignsystem.atoms.icon-button/-/@irishlife-ilgroupdesignsystem.atoms.icon-button-0.0.24.tgz#37c5e357b0e63e4954d167a217c3e64583b1f30e"
+  integrity sha1-N8XjV7DmPklU0WeiF8PmRYOx8w4=
   dependencies:
     "@chakra-ui/react" "1.7.4"
-    "@irishlife/ilgroupdesignsystem.atoms.text" "0.0.17"
-    "@irishlife/ilgroupdesignsystem.molecules.choice" "0.0.15"
+    core-js "^3.0.0"
+
+"@irishlife/ilgroupdesignsystem.atoms.text@0.0.18", "@irishlife/ilgroupdesignsystem.atoms.text@^0.0.18":
+  version "0.0.18"
+  resolved "https://node.bit.dev/@irishlife/ilgroupdesignsystem.atoms.text/-/@irishlife-ilgroupdesignsystem.atoms.text-0.0.18.tgz#c693613829a54143c98a3ef33f29fd0f7394aa69"
+  integrity sha1-xpNhOCmlQUPJij7zPyn9D3OUqmk=
+  dependencies:
+    "@chakra-ui/react" "1.7.4"
+    core-js "^3.0.0"
+
+"@irishlife/ilgroupdesignsystem.icons@0.0.13", "@irishlife/ilgroupdesignsystem.icons@^0.0.13":
+  version "0.0.13"
+  resolved "https://node.bit.dev/@irishlife/ilgroupdesignsystem.icons/-/@irishlife-ilgroupdesignsystem.icons-0.0.13.tgz#f337f34ac30bd335dfcb1fee0970454a4749a341"
+  integrity sha1-8zfzSsML0zXfyx/uCXBFSkdJo0E=
+  dependencies:
+    "@chakra-ui/react" "1.7.4"
+    core-js "^3.0.0"
+
+"@irishlife/ilgroupdesignsystem.molecules.accordion@^0.0.9":
+  version "0.0.9"
+  resolved "https://node.bit.dev/@irishlife/ilgroupdesignsystem.molecules.accordion/-/@irishlife-ilgroupdesignsystem.molecules.accordion-0.0.9.tgz#7e53faea3f7074576ea7a2fd2e44d6fee2f41a76"
+  integrity sha1-flP66j9wdFdup6L9LkTW/uL0GnY=
+  dependencies:
+    "@chakra-ui/react" "1.7.4"
+    "@irishlife/ilgroupdesignsystem.atoms.text" "0.0.18"
+    core-js "^3.0.0"
+
+"@irishlife/ilgroupdesignsystem.molecules.alert@^0.0.4":
+  version "0.0.4"
+  resolved "https://node.bit.dev/@irishlife/ilgroupdesignsystem.molecules.alert/-/@irishlife-ilgroupdesignsystem.molecules.alert-0.0.4.tgz#20d32f4023e51266b7d8e19613c49fa64eaa4212"
+  integrity sha1-INMvQCPlEma32OGWE8Sfpk6qQhI=
+  dependencies:
+    "@chakra-ui/react" "1.7.4"
+    core-js "^3.0.0"
+
+"@irishlife/ilgroupdesignsystem.molecules.choice@0.0.16", "@irishlife/ilgroupdesignsystem.molecules.choice@^0.0.16":
+  version "0.0.16"
+  resolved "https://node.bit.dev/@irishlife/ilgroupdesignsystem.molecules.choice/-/@irishlife-ilgroupdesignsystem.molecules.choice-0.0.16.tgz#0ba9d01e7a1a9c06c6e7387ed9a8a93238289018"
+  integrity sha1-C6nQHnoanAbG5zh+2aipMjgokBg=
+  dependencies:
+    "@chakra-ui/react" "1.7.4"
+    "@irishlife/ilgroupdesignsystem.atoms.button" "0.0.25"
+    "@irishlife/ilgroupdesignsystem.atoms.form-label" "0.0.15"
+    core-js "^3.0.0"
+
+"@irishlife/ilgroupdesignsystem.molecules.datepicker@^0.0.20":
+  version "0.0.20"
+  resolved "https://node.bit.dev/@irishlife/ilgroupdesignsystem.molecules.datepicker/-/@irishlife-ilgroupdesignsystem.molecules.datepicker-0.0.20.tgz#07f32be929b315db6bf1ffe2c779cb08b6392331"
+  integrity sha1-B/Mr6SmzFdtr8f/ix3nLCLY5IzE=
+  dependencies:
+    "@chakra-ui/react" "1.7.4"
+    "@irishlife/ilgroupdesignsystem.atoms.form-label" "0.0.15"
+    "@irishlife/ilgroupdesignsystem.icons" "0.0.13"
+    "@irishlife/ilgroupdesignsystem.molecules.search" "0.0.25"
+    "@irishlife/ilgroupdesignsystem.utils.shared-components.dropdown-options-list" "0.0.15"
+    core-js "^3.0.0"
+
+"@irishlife/ilgroupdesignsystem.molecules.dropdown@^0.0.30":
+  version "0.0.30"
+  resolved "https://node.bit.dev/@irishlife/ilgroupdesignsystem.molecules.dropdown/-/@irishlife-ilgroupdesignsystem.molecules.dropdown-0.0.30.tgz#3ffc744abcf770919f97a5cadc8ea5cd0a335a17"
+  integrity sha1-P/x0Srz3cJGfl6XK3I6lzQozWhc=
+  dependencies:
+    "@chakra-ui/react" "1.7.4"
+    "@irishlife/ilgroupdesignsystem.atoms.form-label" "0.0.15"
+    "@irishlife/ilgroupdesignsystem.icons" "0.0.13"
+    "@irishlife/ilgroupdesignsystem.utils.shared-components.dropdown-options-list" "0.0.15"
+    core-js "^3.0.0"
+
+"@irishlife/ilgroupdesignsystem.molecules.search@0.0.25":
+  version "0.0.25"
+  resolved "https://node.bit.dev/@irishlife/ilgroupdesignsystem.molecules.search/-/@irishlife-ilgroupdesignsystem.molecules.search-0.0.25.tgz#b8fb909ca1376280a628fd33e10a53e6d495af2d"
+  integrity sha1-uPuQnKE3YoCmKP0z4QpT5tSVry0=
+  dependencies:
+    "@chakra-ui/react" "1.7.4"
+    "@irishlife/ilgroupdesignsystem.atoms.form-label" "0.0.15"
+    "@irishlife/ilgroupdesignsystem.utils.shared-components.dropdown-options-list" "0.0.15"
+    core-js "^3.0.0"
+
+"@irishlife/ilgroupdesignsystem.organisms.calendar@^0.0.30":
+  version "0.0.30"
+  resolved "https://node.bit.dev/@irishlife/ilgroupdesignsystem.organisms.calendar/-/@irishlife-ilgroupdesignsystem.organisms.calendar-0.0.30.tgz#3bf7c14f6d9bd25ac90a890a10d36b00258f4f2e"
+  integrity sha1-O/fBT22b0lrJCokKENNrACWPTy4=
+  dependencies:
+    "@chakra-ui/react" "1.7.4"
+    "@irishlife/ilgroupdesignsystem.atoms.text" "0.0.18"
+    "@irishlife/ilgroupdesignsystem.molecules.choice" "0.0.16"
     core-js "^3.0.0"
     date-fns "2.28.0"
 
-"@irishlife/ilgroupdesignsystem.organisms.consent@^0.0.4":
-  version "0.0.4"
-  resolved "https://node.bit.dev/@irishlife/ilgroupdesignsystem.organisms.consent/-/@irishlife-ilgroupdesignsystem.organisms.consent-0.0.4.tgz#cd67a0c1241d92ef3e1a01f15ade3db1e2c4bdee"
-  integrity sha1-zWegwSQdku8+GgHxWt49seLEve4=
+"@irishlife/ilgroupdesignsystem.organisms.consent@^0.0.5":
+  version "0.0.5"
+  resolved "https://node.bit.dev/@irishlife/ilgroupdesignsystem.organisms.consent/-/@irishlife-ilgroupdesignsystem.organisms.consent-0.0.5.tgz#c43d80716d535d2c7c84e51cfaf270ef6d3638d7"
+  integrity sha1-xD2AcW1TXSx8hOUc+vJw7202ONc=
   dependencies:
     "@chakra-ui/react" "1.7.4"
-    "@irishlife/ilgroupdesignsystem.atoms.button" "0.0.24"
-    "@irishlife/ilgroupdesignsystem.atoms.card" "0.0.10"
-    "@irishlife/ilgroupdesignsystem.atoms.checkbox" "0.0.24"
-    "@irishlife/ilgroupdesignsystem.atoms.text" "0.0.17"
-    "@irishlife/ilgroupdesignsystem.icons" "0.0.12"
+    "@irishlife/ilgroupdesignsystem.atoms.button" "0.0.25"
+    "@irishlife/ilgroupdesignsystem.atoms.card" "0.0.11"
+    "@irishlife/ilgroupdesignsystem.atoms.checkbox" "0.0.25"
+    "@irishlife/ilgroupdesignsystem.atoms.text" "0.0.18"
+    "@irishlife/ilgroupdesignsystem.icons" "0.0.13"
     core-js "^3.0.0"
 
-"@irishlife/ilgroupdesignsystem.organisms.navbar@^0.0.6":
-  version "0.0.6"
-  resolved "https://node.bit.dev/@irishlife/ilgroupdesignsystem.organisms.navbar/-/@irishlife-ilgroupdesignsystem.organisms.navbar-0.0.6.tgz#266a59433d21f87813e65af86fa56debc3458505"
-  integrity sha1-JmpZQz0h+HgT5lr4b6Vt68NFhQU=
+"@irishlife/ilgroupdesignsystem.organisms.navbar@^0.0.7":
+  version "0.0.7"
+  resolved "https://node.bit.dev/@irishlife/ilgroupdesignsystem.organisms.navbar/-/@irishlife-ilgroupdesignsystem.organisms.navbar-0.0.7.tgz#7dc5476d48461ce0aa3c08a4535cc881ba4b3620"
+  integrity sha1-fcVHbUhGHOCqPAikU1zIgbpLNiA=
   dependencies:
     "@chakra-ui/react" "1.7.4"
-    "@irishlife/ilgroupdesignsystem.atoms.icon-button" "0.0.23"
-    "@irishlife/ilgroupdesignsystem.icons" "0.0.12"
+    "@irishlife/ilgroupdesignsystem.atoms.icon-button" "0.0.24"
+    "@irishlife/ilgroupdesignsystem.icons" "0.0.13"
     core-js "^3.0.0"
 
-"@irishlife/ilgroupdesignsystem.organisms.sidebar@^0.0.9":
-  version "0.0.9"
-  resolved "https://node.bit.dev/@irishlife/ilgroupdesignsystem.organisms.sidebar/-/@irishlife-ilgroupdesignsystem.organisms.sidebar-0.0.9.tgz#f51f8bc853407c6ade70720fd067a255929f55d6"
-  integrity sha1-9R+LyFNAfGrecHIP0GeiVZKfVdY=
+"@irishlife/ilgroupdesignsystem.organisms.sidebar@^0.0.10":
+  version "0.0.10"
+  resolved "https://node.bit.dev/@irishlife/ilgroupdesignsystem.organisms.sidebar/-/@irishlife-ilgroupdesignsystem.organisms.sidebar-0.0.10.tgz#c3ba15faf2d2b06910aa76ae9e66dc88ec120d42"
+  integrity sha1-w7oV+vLSsGkQqnaunmbciOwSDUI=
   dependencies:
     "@chakra-ui/react" "1.7.4"
-    "@irishlife/ilgroupdesignsystem.atoms.icon-button" "0.0.23"
-    "@irishlife/ilgroupdesignsystem.icons" "0.0.12"
+    "@irishlife/ilgroupdesignsystem.atoms.icon-button" "0.0.24"
+    "@irishlife/ilgroupdesignsystem.icons" "0.0.13"
     core-js "^3.0.0"
 
-"@irishlife/ilgroupdesignsystem.theme.theme-provider@^0.0.20":
-  version "0.0.20"
-  resolved "https://node.bit.dev/@irishlife/ilgroupdesignsystem.theme.theme-provider/-/@irishlife-ilgroupdesignsystem.theme.theme-provider-0.0.20.tgz#96d98bba0677c992026119f3855042dcb886cbdf"
-  integrity sha1-ltmLugZ3yZICYRnzhVBC3LiGy98=
+"@irishlife/ilgroupdesignsystem.theme.theme-provider@^0.0.21":
+  version "0.0.21"
+  resolved "https://node.bit.dev/@irishlife/ilgroupdesignsystem.theme.theme-provider/-/@irishlife-ilgroupdesignsystem.theme.theme-provider-0.0.21.tgz#7825d6786b2d0925cf45c6a60d1dc2aeb410e520"
+  integrity sha1-eCXWeGstCSXPRcamDR3CrrQQ5SA=
   dependencies:
     "@chakra-ui/react" "1.7.4"
     "@fontsource/assistant" "4.5.1"
-    "@irishlife/ilgroupdesignsystem.theme.theme" "0.0.18"
+    "@irishlife/ilgroupdesignsystem.theme.theme" "0.0.19"
     core-js "^3.0.0"
 
-"@irishlife/ilgroupdesignsystem.theme.theme@0.0.18":
-  version "0.0.18"
-  resolved "https://node.bit.dev/@irishlife/ilgroupdesignsystem.theme.theme/-/@irishlife-ilgroupdesignsystem.theme.theme-0.0.18.tgz#1cab46df3ed6dae844cf79bb2b64443c916bbd2c"
-  integrity sha1-HKtG3z7W2uhEz3m7K2REPJFrvSw=
+"@irishlife/ilgroupdesignsystem.theme.theme@0.0.19":
+  version "0.0.19"
+  resolved "https://node.bit.dev/@irishlife/ilgroupdesignsystem.theme.theme/-/@irishlife-ilgroupdesignsystem.theme.theme-0.0.19.tgz#d17b52d7ebea432536988fdefafddfd7f22a7001"
+  integrity sha1-0XtS1+vqQyU2mI/e+v3f1/IqcAE=
   dependencies:
     "@chakra-ui/react" "1.7.4"
+    core-js "^3.0.0"
+
+"@irishlife/ilgroupdesignsystem.utils.shared-components.dropdown-options-list@0.0.15":
+  version "0.0.15"
+  resolved "https://node.bit.dev/@irishlife/ilgroupdesignsystem.utils.shared-components.dropdown-options-list/-/@irishlife-ilgroupdesignsystem.utils.shared-components.dropdown-options-list-0.0.15.tgz#04d9e12535f732f95b737ee66b2dfb6f3377ee95"
+  integrity sha1-BNnhJTX3Mvlbc37may37bzN37pU=
+  dependencies:
+    "@chakra-ui/react" "1.7.4"
+    "@irishlife/ilgroupdesignsystem.atoms.text" "0.0.18"
     core-js "^3.0.0"
 
 "@istanbuljs/load-nyc-config@^1.0.0":
@@ -2595,10 +2637,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.8.tgz#50d680c8a8a78fe30abe6906453b21ad8ab0ad7b"
   integrity sha512-YofkM6fGv4gDJq78g4j0mMuGMkZVxZDgtU0JRdx6FgiJDG+0fY0GKVolOV8WqVmEhLCXkQRjwDdKyPxJp/uucg==
 
-"@types/node@^17.0.9":
-  version "17.0.9"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.9.tgz#0b7f161afb5b1cc12518d29b2cdc7175d5490628"
-  integrity sha512-5dNBXu/FOER+EXnyah7rn8xlNrfMOQb/qXnw4NQgLkCygKBKhdmF/CA5oXVOKZLBEahw8s2WP9LxIcN/oDDRgQ==
+"@types/node@^17.0.10":
+  version "17.0.10"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.10.tgz#616f16e9d3a2a3d618136b1be244315d95bd7cab"
+  integrity sha512-S/3xB4KzyFxYGCppyDt68yzBU9ysL88lSdIah4D6cptdcltc4NCPCAMc0+PCpg/lLIyC7IPvj2Z52OJWeIUkog==
 
 "@types/parse-json@^4.0.0":
   version "4.0.0"
@@ -4145,11 +4187,6 @@ date-fns@2.28.0:
   resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.28.0.tgz#9570d656f5fc13143e50c975a3b6bbeb46cd08b2"
   integrity sha512-8d35hViGYx/QH0icHYCeLmsLmMUheMmTyV9Fcm6gvNwdw31yXXH+O85sOBJ+OLnLQMKZowvpKb6FgMIQjcpvQw==
 
-debounce@^1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/debounce/-/debounce-1.2.1.tgz#38881d8f4166a5c5848020c11827b834bcb3e0a5"
-  integrity sha512-XRRe6Glud4rd/ZGQfiV1ruXSfbvfJedlV9Y6zOlP+2K04vBYiJEte6stfFkCP03aMnY5tsipamumUjL14fofug==
-
 debug@2.6.9, debug@^2.6.0, debug@^2.6.9:
   version "2.6.9"
   resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.9.tgz#5d128515df134ff327e90a4c93f4e077a536341f"
@@ -5133,16 +5170,14 @@ fraction.js@^4.1.2:
   resolved "https://registry.yarnpkg.com/fraction.js/-/fraction.js-4.1.2.tgz#13e420a92422b6cf244dff8690ed89401029fbe8"
   integrity sha512-o2RiJQ6DZaR/5+Si0qJUIy637QMRudSi9kU/FFzx9EZazrIdnBgpU+3sEWCxAVhH2RtxW2Oz+T4p2o8uOPVcgA==
 
-framer-motion@^5:
-  version "5.6.0"
-  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-5.6.0.tgz#8203b5bc4e172265d43dfe67c3c41346c67a3940"
-  integrity sha512-Y4FtwUU+LUWLKSzoT6Sq538qluvhpe6izdQK8/xZeVjQZ/ORKGfZzyhzcUxNfscqnfEa3dUOA47s+dwrSipdGA==
+framer-motion@^6:
+  version "6.2.1"
+  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-6.2.1.tgz#e0d02dd47211fe87e43bf5a0779991372bdadb1c"
+  integrity sha512-/8MMBCKgiuO6V/raGsJ+2dFZw5kteXsX1cSarxiM8o1F0XNlzd+4WGTIos85G2nZpwpmReJuUk+Hz4S3Y7fwPw==
   dependencies:
     framesync "6.0.1"
     hey-listen "^1.0.8"
     popmotion "11.0.3"
-    react-merge-refs "^1.1.0"
-    react-use-measure "^2.1.1"
     style-value-types "5.0.0"
     tslib "^2.1.0"
   optionalDependencies:
@@ -7980,11 +8015,6 @@ react-is@^17.0.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"
   integrity sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==
 
-react-merge-refs@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/react-merge-refs/-/react-merge-refs-1.1.0.tgz#73d88b892c6c68cbb7a66e0800faa374f4c38b06"
-  integrity sha512-alTKsjEL0dKH/ru1Iyn7vliS2QRcBp9zZPGoWxUOvRGWPUYgjo+V01is7p04It6KhgrzhJGnIj9GgX8W4bZoCQ==
-
 react-refresh@^0.11.0:
   version "0.11.0"
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.11.0.tgz#77198b944733f0f1f1a90e791de4541f9f074046"
@@ -8072,13 +8102,6 @@ react-style-singleton@^2.1.0:
     get-nonce "^1.0.0"
     invariant "^2.2.4"
     tslib "^1.0.0"
-
-react-use-measure@^2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/react-use-measure/-/react-use-measure-2.1.1.tgz#5824537f4ee01c9469c45d5f7a8446177c6cc4ba"
-  integrity sha512-nocZhN26cproIiIduswYpV5y5lQpSQS1y/4KuvUCjSKmw7ZWIS/+g3aFnX3WdBkyuGUtTLif3UTqnLLhbDoQig==
-  dependencies:
-    debounce "^1.2.1"
 
 react@^17.0.2:
   version "17.0.2"
@@ -9147,10 +9170,10 @@ typedarray-to-buffer@^3.1.5:
   dependencies:
     is-typedarray "^1.0.0"
 
-typescript@^4.5.4:
-  version "4.5.4"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.5.4.tgz#a17d3a0263bf5c8723b9c52f43c5084edf13c2e8"
-  integrity sha512-VgYs2A2QIRuGphtzFV7aQJduJ2gyfTljngLzjpfW9FoYZF6xuw1W0vW9ghCKLfcWrCFxK81CSGRAvS1pn4fIUg==
+typescript@^4.5.5:
+  version "4.5.5"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.5.5.tgz#d8c953832d28924a9e3d37c73d729c846c5896f3"
+  integrity sha512-TCTIul70LyWe6IJWT8QSYeA54WQe8EjQFU4wY52Fasj5UKx88LNYKCgBEHcOMOrFF1rKGbD8v/xcNWVUq9SymA==
 
 unbox-primitive@^1.0.1:
   version "1.0.1"
@@ -9329,10 +9352,10 @@ wbuf@^1.1.0, wbuf@^1.7.3:
   dependencies:
     minimalistic-assert "^1.0.0"
 
-web-vitals@^2.1.3:
-  version "2.1.3"
-  resolved "https://registry.yarnpkg.com/web-vitals/-/web-vitals-2.1.3.tgz#6dca59f41dbc3fcccdb889da06191b437b18f534"
-  integrity sha512-+ijpniAzcnQicXaXIN0/eHQAiV/jMt1oHGHTmz7VdAJPPkzzDhmoYPSpLgJTuFtUh+jCjxCoeTZPg7Ic+g8o7w==
+web-vitals@^2.1.4:
+  version "2.1.4"
+  resolved "https://registry.yarnpkg.com/web-vitals/-/web-vitals-2.1.4.tgz#76563175a475a5e835264d373704f9dde718290c"
+  integrity sha512-sVWcwhU5mX6crfI5Vd2dC4qchyTqxV8URinzt25XqVh+bHEPGH4C3NPrNionCP7Obx59wrYEbNlw4Z8sjALzZg==
 
 webidl-conversions@^4.0.2:
   version "4.0.2"
